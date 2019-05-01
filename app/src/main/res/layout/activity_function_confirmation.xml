@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="15dp"
+    android:padding="15dp"
+    tools:context=".Function_Items.Function_confirmation">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Allow Doors of the truck to be opened?"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <ImageButton
+        android:id="@+id/reject"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/accept_deny_dialog_negative_bg"
+        android:src="@drawable/ic_cc_clear"/>
+
+    <android.support.wear.widget.CircularProgressLayout
+        android:id="@+id/circular_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="bottom|right"
+        app:strokeWidth="4dp">
+
+        <ImageButton
+            android:id="@+id/accept"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/accept_deny_dialog_positive_bg"
+            android:src="@drawable/ic_cc_checkmark"/>
+
+    </android.support.wear.widget.CircularProgressLayout>
+
+
+</FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-round-v23\\values-round-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.4.0.aar\\c69ba12d7f06b94331a581b521cab550\\res\\values-round-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,5,8,9,10,11,12,13,14,15",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "213,269,472,531,608,689,733,804,877,959",
+                        "endColumns": "55,56,58,76,80,43,70,72,81,75",
+                        "endOffsets": "268,325,530,607,688,732,803,876,958,1034"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,176,239,320,405,453,528,605,691",
+                        "endColumns": "59,60,62,80,84,47,74,76,85,79",
+                        "endOffsets": "110,171,234,315,400,448,523,600,686,766"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\src\\main\\res\\values-round\\strings.xml",
+                    "from": {
+                        "startLines": "13,3,4,7,8,9,1,17,18,12,5,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "525,79,127,227,274,366,17,710,769,452,173,824",
+                        "endLines": "16,3,4,7,8,9,1,17,18,12,5,19",
+                        "endColumns": "14,46,44,45,90,59,58,57,53,71,50,56",
+                        "endOffsets": "704,121,167,268,360,421,71,763,818,519,219,876"
+                    },
+                    "to": {
+                        "startLines": "12,16,17,18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "771,952,999,1044,1090,1181,1241,1300,1358,1412,1484,1535",
+                        "endLines": "15,16,17,18,19,20,21,22,23,24,25,26",
+                        "endColumns": "14,46,44,45,90,59,58,57,53,71,50,56",
+                        "endOffsets": "947,994,1039,1085,1176,1236,1295,1353,1407,1479,1530,1587"
+                    }
+                }
+            ]
+        }
+    ]
+}
