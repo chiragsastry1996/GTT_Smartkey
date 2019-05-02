@@ -11,8 +11,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.volvo.gtt_smartkey.Function_Items.HVAC;
-import com.volvo.gtt_smartkey.Function_Items.Function_General;
+import com.volvo.gtt_smartkey.Function_Items.Function_Hazardlight;
+import com.volvo.gtt_smartkey.Function_Items.Function_Headlamp;
+import com.volvo.gtt_smartkey.Function_Items.Function_Hvac;
+import com.volvo.gtt_smartkey.Function_Items.Function_Door;
 import com.volvo.gtt_smartkey.R;
 
 import java.util.List;
@@ -66,7 +68,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
             case 2 : myViewHolder.textView.setText("Hazard Lighting");
                 myViewHolder.imageView.setBackgroundResource(R.drawable.hazard_light);
                 break;
-            case 3 : myViewHolder.textView.setText("HVAC");
+            case 3 : myViewHolder.textView.setText("Function_Hvac");
                 myViewHolder.imageView.setBackgroundResource(R.drawable.hvac);
                 break;
         }
@@ -74,12 +76,23 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         myViewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(position == 3) {
-                    Intent intent = new Intent(mContext, HVAC.class);
+                if(position == 0) {
+                    Intent intent = new Intent(mContext, Function_Door.class);
                     intent.putExtra("position", position);
                     mContext.startActivity(intent);
-                } else {
-                    Intent intent = new Intent(mContext, Function_General.class);
+                }
+               else if(position == 1) {
+                    Intent intent = new Intent(mContext, Function_Headlamp.class);
+                    intent.putExtra("position", position);
+                    mContext.startActivity(intent);
+                }
+                else if(position == 2) {
+                    Intent intent = new Intent(mContext, Function_Hazardlight.class);
+                    intent.putExtra("position", position);
+                    mContext.startActivity(intent);
+                }
+                else if(position == 3) {
+                    Intent intent = new Intent(mContext, Function_Hvac.class);
                     intent.putExtra("position", position);
                     mContext.startActivity(intent);
                 }

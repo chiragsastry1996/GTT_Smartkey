@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Function_Items.HVAC">
+    tools:context=".Function_Items.Function_Hvac">
 
     <Button
         android:id="@+id/set"

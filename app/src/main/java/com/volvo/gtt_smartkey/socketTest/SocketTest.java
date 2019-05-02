@@ -37,7 +37,6 @@ public class SocketTest extends WearableActivity {
         mSocket.connect();
 
         Log.v("AvisActivity", "try to connect");
-        mSocket.connect();
 
         mSocket.io().on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
             @Override

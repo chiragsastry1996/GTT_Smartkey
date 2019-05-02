@@ -3,8 +3,8 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.volvo.gtt_smartkey">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-feature android:name="android.hardware.type.watch"/>
 
@@ -16,6 +16,17 @@
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Function_Items.Function_Hazardlight">
+        </activity>
+        <activity android:name=".Function_Items.Function_Headlamp">
+        </activity>
+
+        <service
+            android:name=".SplashScreen.SocketService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
         <activity android:name=".Function_Items.Function_confirmation">
         </activity>
         <activity android:name=".socketTest.SocketTest">
@@ -27,14 +38,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".Function_Items.HVAC">
+        <activity android:name=".Function_Items.Function_Hvac">
         </activity>
         <activity
             android:name=".MainActivity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme">
         </activity>
-        <activity android:name=".Function_Items.Function_General">
+        <activity android:name=".Function_Items.Function_Door">
         </activity>
         <activity android:name="android.support.wearable.activity.ConfirmationActivity">
         </activity>

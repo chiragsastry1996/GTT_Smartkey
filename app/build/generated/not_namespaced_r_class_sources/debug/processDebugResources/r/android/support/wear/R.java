@@ -409,28 +409,28 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int notification_action = 0x7f0d002c;
-        public static final int notification_action_tombstone = 0x7f0d002d;
-        public static final int notification_template_custom_big = 0x7f0d0034;
-        public static final int notification_template_icon_group = 0x7f0d0035;
-        public static final int notification_template_part_chronometer = 0x7f0d0039;
-        public static final int notification_template_part_time = 0x7f0d003a;
-        public static final int ws_action_drawer_item_view = 0x7f0d004a;
-        public static final int ws_action_drawer_peek_view = 0x7f0d004b;
-        public static final int ws_action_drawer_title_view = 0x7f0d004c;
-        public static final int ws_navigation_drawer_item_view = 0x7f0d004d;
-        public static final int ws_navigation_drawer_view = 0x7f0d004e;
-        public static final int ws_overlay_confirmation = 0x7f0d004f;
-        public static final int ws_single_page_nav_drawer_1_item = 0x7f0d0050;
-        public static final int ws_single_page_nav_drawer_2_item = 0x7f0d0051;
-        public static final int ws_single_page_nav_drawer_3_item = 0x7f0d0052;
-        public static final int ws_single_page_nav_drawer_4_item = 0x7f0d0053;
-        public static final int ws_single_page_nav_drawer_5_item = 0x7f0d0054;
-        public static final int ws_single_page_nav_drawer_6_item = 0x7f0d0055;
-        public static final int ws_single_page_nav_drawer_7_item = 0x7f0d0056;
-        public static final int ws_single_page_nav_drawer_peek_view = 0x7f0d0057;
-        public static final int ws_single_page_nav_drawer_text = 0x7f0d0058;
-        public static final int ws_wearable_drawer_view = 0x7f0d0059;
+        public static final int notification_action = 0x7f0d002e;
+        public static final int notification_action_tombstone = 0x7f0d002f;
+        public static final int notification_template_custom_big = 0x7f0d0036;
+        public static final int notification_template_icon_group = 0x7f0d0037;
+        public static final int notification_template_part_chronometer = 0x7f0d003b;
+        public static final int notification_template_part_time = 0x7f0d003c;
+        public static final int ws_action_drawer_item_view = 0x7f0d004c;
+        public static final int ws_action_drawer_peek_view = 0x7f0d004d;
+        public static final int ws_action_drawer_title_view = 0x7f0d004e;
+        public static final int ws_navigation_drawer_item_view = 0x7f0d004f;
+        public static final int ws_navigation_drawer_view = 0x7f0d0050;
+        public static final int ws_overlay_confirmation = 0x7f0d0051;
+        public static final int ws_single_page_nav_drawer_1_item = 0x7f0d0052;
+        public static final int ws_single_page_nav_drawer_2_item = 0x7f0d0053;
+        public static final int ws_single_page_nav_drawer_3_item = 0x7f0d0054;
+        public static final int ws_single_page_nav_drawer_4_item = 0x7f0d0055;
+        public static final int ws_single_page_nav_drawer_5_item = 0x7f0d0056;
+        public static final int ws_single_page_nav_drawer_6_item = 0x7f0d0057;
+        public static final int ws_single_page_nav_drawer_7_item = 0x7f0d0058;
+        public static final int ws_single_page_nav_drawer_peek_view = 0x7f0d0059;
+        public static final int ws_single_page_nav_drawer_text = 0x7f0d005a;
+        public static final int ws_wearable_drawer_view = 0x7f0d005b;
     }
     public static final class string {
         private string() {}

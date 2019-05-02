@@ -1395,9 +1395,11 @@ layout accept_deny_dialog
 layout action_drawer_item_view
 layout action_drawer_peek_view
 layout action_drawer_title_view
+layout activity_function__hazardlight
+layout activity_function__headlamp
 layout activity_function_confirmation
-layout activity_function_general
-layout activity_hvac
+layout activity_function_door
+layout activity_function_hvac
 layout activity_main
 layout activity_socket_test
 layout activity_splash_screen

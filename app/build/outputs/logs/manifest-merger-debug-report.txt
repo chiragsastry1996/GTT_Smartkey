@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b43dc8b6b0e04eb27485c8fa29d7439a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:2:1-15:12
@@ -43,39 +43,39 @@ MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chira\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\595e2d05143c24f71c5bb456343a707b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\802967041c2c9983802da973d71ad3e5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d2a7205d136b5f199c59bec69fede73\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
 	package
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:4:11-43
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:3:11-57
 	android:versionCode
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-54:12
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-65:12
 		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:6:5-66
-	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:5-67
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:22-65
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:22-64
 uses-feature#android.hardware.type.watch
 ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:9:5-63
 	android:name
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:9:19-61
 application
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:11:5-52:19
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:11:5-63:19
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:10:5-20
 MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:9:5-13:19
@@ -112,62 +112,78 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gra
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:17:9-59
 	android:name
 		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:12:9-46
-activity#com.volvo.gtt_smartkey.Function_Items.Function_confirmation
+activity#com.volvo.gtt_smartkey.Function_Items.Function_Hazardlight
 ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:19:9-20:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:19:19-71
-activity#com.volvo.gtt_smartkey.socketTest.SocketTest
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:19:19-70
+activity#com.volvo.gtt_smartkey.Function_Items.Function_Headlamp
 ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:21:9-22:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:21:19-56
-activity#com.volvo.gtt_smartkey.SplashScreen.SplashScreen
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:23:9-29:20
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:21:19-67
+service#com.volvo.gtt_smartkey.SplashScreen.SocketService
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:24:9-28:19
+	android:enabled
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:23:19-60
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:24:13-28:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:25:17-68
-	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:25:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:27:17-76
-	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:27:27-74
-activity#com.volvo.gtt_smartkey.Function_Items.HVAC
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:25:13-55
+activity#com.volvo.gtt_smartkey.Function_Items.Function_confirmation
 ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:30:9-31:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:30:19-54
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:30:19-71
+activity#com.volvo.gtt_smartkey.socketTest.SocketTest
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:32:9-33:20
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:32:19-56
+activity#com.volvo.gtt_smartkey.SplashScreen.SplashScreen
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:34:19-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:36:17-68
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:38:27-74
+activity#com.volvo.gtt_smartkey.Function_Items.Function_Hvac
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:41:9-42:20
+	android:name
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:41:19-63
 activity#com.volvo.gtt_smartkey.MainActivity.MainActivity
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:32:9-36:20
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:43:9-47:20
 	android:label
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:45:13-45
 	android:theme
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:35:13-41
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:46:13-41
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:33:13-54
-activity#com.volvo.gtt_smartkey.Function_Items.Function_General
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:37:9-38:20
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:44:13-54
+activity#com.volvo.gtt_smartkey.Function_Items.Function_Door
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:48:9-49:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:37:19-66
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:48:19-63
 activity#android.support.wearable.activity.ConfirmationActivity
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:39:9-40:20
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:50:9-51:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:39:19-88
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:50:19-88
 uses-library#com.google.android.wearable
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:42:9-44:38
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:53:9-55:38
 MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:10:9-12:40
 MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:10:9-12:40
 	android:required
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:43:13-55
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:54:13-55
 meta-data#com.google.android.wearable.standalone
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:49:9-51:35
+ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:60:9-62:35
 	android:value
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:51:13-33
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:62:13-33
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:50:13-66
+		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:61:13-66
 uses-sdk
 INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml

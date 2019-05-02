@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.volvo.gtt_smartkey.R;
 
-public class HVAC extends WearableActivity {
+public class Function_Hvac extends WearableActivity {
 
     TextView increase, decrease, display;
     Integer status = 16;
@@ -18,7 +18,7 @@ public class HVAC extends WearableActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hvac);
+        setContentView(R.layout.activity_function_hvac);
 
         increase = (TextView)findViewById(R.id.increase);
         decrease = (TextView)findViewById(R.id.decrease);
@@ -47,11 +47,11 @@ public class HVAC extends WearableActivity {
         set.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HVAC.this, ConfirmationActivity.class);
+                Intent intent = new Intent(Function_Hvac.this, ConfirmationActivity.class);
                 intent.putExtra(ConfirmationActivity.EXTRA_ANIMATION_TYPE,
                         ConfirmationActivity.SUCCESS_ANIMATION);
                 intent.putExtra(ConfirmationActivity.EXTRA_MESSAGE,
-                        "HVAC set to" + status.toString());
+                        "Function_Hvac set to" + status.toString());
                 startActivity(intent);
                 finish();
             }

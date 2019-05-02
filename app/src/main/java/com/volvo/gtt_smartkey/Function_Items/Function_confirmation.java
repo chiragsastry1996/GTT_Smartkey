@@ -1,17 +1,33 @@
 package com.volvo.gtt_smartkey.Function_Items;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
+import android.os.IBinder;
+import android.os.Message;
+import android.os.Messenger;
+import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.wear.widget.CircularProgressLayout;
 import android.support.wearable.activity.ConfirmationActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.volvo.gtt_smartkey.R;
+import com.volvo.gtt_smartkey.SplashScreen.SocketService;
 
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_lock;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_unlock;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hazardlight_off;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hazardlight_on;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.headlight_off;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.headlight_on;
+import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hvac_set;
 import static java.lang.Integer.parseInt;
 
 public class Function_confirmation extends Activity implements
@@ -21,6 +37,7 @@ public class Function_confirmation extends Activity implements
     CircularProgressLayout circularProgress;
     ImageView accept, reject;
     String action;
+    String status;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,20 +58,38 @@ public class Function_confirmation extends Activity implements
 
         if(bundle!=null)
         {
-            String status =  bundle.get("position").toString();
+            status =  bundle.get("type").toString();
+            Log.e("SocketTest", status);
 
-            switch (parseInt(status)) {
-                case 0 : textView.setText("Allow Doors of the truck be opened?");
-                    action = "Door Unlocked";
+            switch (status) {
+                case "door" :
+                    if(SocketService.door_status.equals("LOCK")){
+                        textView.setText("Allow Doors of the truck be opened?");
+                        break;
+                    }
+                    else if(SocketService.door_status.equals("UNLOCK")) {
+                        textView.setText("Allow Doors of the truck be closed?");
+                        break;
+                    }
+                case "headlamp" :
+                    if(SocketService.headlight_status.equals("ON")){
+                        textView.setText("Allow Headlamps to be switched off?");
+                        break;
+                    }
+                    else if(SocketService.headlight_status.equals("OFF")) {
+                        textView.setText("Allow Headlamps to be switched on?");
+                        break;
+                    }
+                case "hazardlight" : if(SocketService.hazardlight_status.equals("ON")){
+                    textView.setText("Allow HAzard Lights to be switched off?");
+
                     break;
-                case 1 : textView.setText("Allow Headlamps to be switched on?");
-                    action = "Headlamps switched on";
+                }
+                else if(SocketService.hazardlight_status.equals("OFF")) {
+                    textView.setText("Allow Hazard Lights to be switched on?");
                     break;
-                case 2 : textView.setText("Allow Hazard Lights to be switched on?");
-                    action = "Hazard lights switched on";
-                    break;
-                case 3 : textView.setText("Allow HVAC to be controlled?");
-                    action = "HVAC value changed";
+                }
+                case "hvac" : textView.setText("Allow Function_Hvac to be controlled?");
                     break;
             }
 
@@ -79,6 +114,47 @@ public class Function_confirmation extends Activity implements
 
     @Override
     public void onTimerFinished(CircularProgressLayout circularProgressLayout) {
+
+        switch (status) {
+            case "door" :
+                if(SocketService.door_status.equals("LOCK")){
+
+                    action = "Door Unlocked";
+                    door_unlock();
+                    break;
+                }
+                else if(SocketService.door_status.equals("UNLOCK")) {
+                    action = "Door Locked";
+                    door_lock();
+                    break;
+                }
+            case "headlamp" :
+                if(SocketService.headlight_status.equals("ON")){
+                    action = "Headlamps switched off";
+                    headlight_off();
+                    break;
+                }
+                else if(SocketService.headlight_status.equals("OFF")) {
+                    action = "Headlamps switched on";
+                    headlight_on();
+                    break;
+                }
+            case "hazardlight" : if(SocketService.hazardlight_status.equals("ON")){
+                action = "Hazard Lights switched off";
+                hazardlight_off();
+                break;
+            }
+            else if(SocketService.hazardlight_status.equals("OFF")) {
+                action = "Hazard Lights switched on";
+                hazardlight_on();
+                break;
+            }
+            case "hvac" :
+                action = "Function_Hvac value changed";
+                hvac_set();
+                break;
+        }
+
         Intent intent = new Intent(this, ConfirmationActivity.class);
         intent.putExtra(ConfirmationActivity.EXTRA_ANIMATION_TYPE,
                 ConfirmationActivity.SUCCESS_ANIMATION);
@@ -95,4 +171,5 @@ public class Function_confirmation extends Activity implements
         }
 
     }
+
 }
