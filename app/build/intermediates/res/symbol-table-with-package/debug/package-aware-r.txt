@@ -1399,7 +1399,9 @@ layout activity_function__hazardlight
 layout activity_function__headlamp
 layout activity_function_confirmation
 layout activity_function_door
+layout activity_function_headlamp_test
 layout activity_function_hvac
+layout activity_function_hvac_test
 layout activity_main
 layout activity_socket_test
 layout activity_splash_screen
@@ -2047,3 +2049,4 @@ styleable WearableFrameLayout android_foreground android_measureAllChildren andr
 styleable WearableNavigationDrawer navigation_style
 styleable WearableNavigationDrawerView navigationStyle
 styleable WearableRecyclerView bezelWidth bezel_width circularScrollingGestureEnabled circular_scrolling_gesture_enabled scrollDegreesPerScreen scroll_degrees_per_screen
+xml network_security_config

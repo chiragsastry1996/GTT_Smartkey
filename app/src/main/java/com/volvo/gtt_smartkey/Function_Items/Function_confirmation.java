@@ -1,15 +1,7 @@
 package com.volvo.gtt_smartkey.Function_Items;
 
 import android.app.Activity;
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
-import android.content.ServiceConnection;
-import android.os.IBinder;
-import android.os.Message;
-import android.os.Messenger;
-import android.os.RemoteException;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.wear.widget.CircularProgressLayout;
 import android.support.wearable.activity.ConfirmationActivity;
@@ -21,14 +13,14 @@ import android.widget.TextView;
 import com.volvo.gtt_smartkey.R;
 import com.volvo.gtt_smartkey.SplashScreen.SocketService;
 
+
+import static com.volvo.gtt_smartkey.Function_Items.Function_HeadLamp_Test.register;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_lock;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_unlock;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hazardlight_off;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hazardlight_on;
-import static com.volvo.gtt_smartkey.SplashScreen.SocketService.headlight_off;
-import static com.volvo.gtt_smartkey.SplashScreen.SocketService.headlight_on;
-import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hvac_set;
-import static java.lang.Integer.parseInt;
+import static com.volvo.gtt_smartkey.Utils.Constants.isLightOn;
+import static com.volvo.gtt_smartkey.Utils.Constants.status_value;
 
 public class Function_confirmation extends Activity implements
         CircularProgressLayout.OnTimerFinishedListener, View.OnClickListener {
@@ -72,11 +64,11 @@ public class Function_confirmation extends Activity implements
                         break;
                     }
                 case "headlamp" :
-                    if(SocketService.headlight_status.equals("ON")){
+                    if(isLightOn){
                         textView.setText("Allow Headlamps to be switched off?");
                         break;
                     }
-                    else if(SocketService.headlight_status.equals("OFF")) {
+                    else if(!isLightOn) {
                         textView.setText("Allow Headlamps to be switched on?");
                         break;
                     }
@@ -112,6 +104,54 @@ public class Function_confirmation extends Activity implements
 
     }
 
+//    @Override
+//    public void onTimerFinished(CircularProgressLayout circularProgressLayout) {
+//
+//        switch (status) {
+//            case "door" :
+//                if(SocketService.door_status.equals("LOCK")){
+//
+//                    action = "Door Unlocked";
+//                    door_unlock();
+//                    break;
+//                }
+//                else if(SocketService.door_status.equals("UNLOCK")) {
+//                    action = "Door Locked";
+//                    door_lock();
+//                    break;
+//                }
+//            case "headlamp" :
+//                if(SocketService.headlight_status.equals("ON")){
+//                    action = "Headlamps switched off";
+//                    headlight_off();
+//                    break;
+//                }
+//                else if(SocketService.headlight_status.equals("OFF")) {
+//                    action = "Headlamps switched on";
+//                    headlight_on();
+//                    break;
+//                }
+//            case "hazardlight" : if(SocketService.hazardlight_status.equals("ON")){
+//                action = "Hazard Lights switched off";
+//                hazardlight_off();
+//                break;
+//            }
+//            else if(SocketService.hazardlight_status.equals("OFF")) {
+//                action = "Hazard Lights switched on";
+//                hazardlight_on();
+//                break;
+//            }
+//            case "hvac" :
+//                switch (Function_Hvac_Test.status_value) {
+//                    case 0 : Log.e("HVAC", "OFF"); break;
+//                    case 1 : Log.e("HVAC", "LOW"); break;
+//                    case 2 : Log.e("HVAC", "MID"); break;
+//                    case 3 : Log.e("HVAC", "HIGH"); break;
+//                }
+//                action = "HVAC mode changed";
+//                break;
+//        }
+
     @Override
     public void onTimerFinished(CircularProgressLayout circularProgressLayout) {
 
@@ -129,14 +169,21 @@ public class Function_confirmation extends Activity implements
                     break;
                 }
             case "headlamp" :
-                if(SocketService.headlight_status.equals("ON")){
-                    action = "Headlamps switched off";
-                    headlight_off();
+                if(isLightOn) {
+                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOffLight";
+                    Function_HeadLamp_Test.item_name.setText("OFF");
+                    action = "Headlamp switched OFF";
+                    register();
+                    isLightOn = false;
+                    Log.e("HEADLAMP",  String.valueOf(isLightOn));
                     break;
-                }
-                else if(SocketService.headlight_status.equals("OFF")) {
-                    action = "Headlamps switched on";
-                    headlight_on();
+                } else if(!isLightOn) {
+                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOnLight";
+                    Function_HeadLamp_Test.item_name.setText("ON");
+                    register();
+                    action = "Headlamp switched ON";
+                    isLightOn = true;
+                    Log.e("HEADLAMP",  String.valueOf(isLightOn));
                     break;
                 }
             case "hazardlight" : if(SocketService.hazardlight_status.equals("ON")){
@@ -150,8 +197,29 @@ public class Function_confirmation extends Activity implements
                 break;
             }
             case "hvac" :
-                action = "Function_Hvac value changed";
-                hvac_set();
+                switch (status_value) {
+                    case 0 :
+                        Log.e("HVAC", "SOFF");
+                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOffLight";
+                        register();
+                        break;
+                    case 1 :
+                        Log.e("HVAC", "LOW");
+                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperLow";
+                        register();
+                        break;
+                    case 2 :
+                        Log.e("HVAC", "Medium");
+                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperMedium";
+                        register();
+                        break;
+                    case 3 :
+                        Log.e("HVAC", "High");
+                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperHigh";
+                        register();
+                        break;
+                }
+                action = "HVAC mode changed";
                 break;
         }
 

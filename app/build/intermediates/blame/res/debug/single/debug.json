@@ -432,6 +432,10 @@
         "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b43dc8b6b0e04eb27485c8fa29d7439a\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
         "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b43dc8b6b0e04eb27485c8fa29d7439a\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -954,6 +958,10 @@
     {
         "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b43dc8b6b0e04eb27485c8fa29d7439a\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_function_hvac_test.xml.flat",
+        "source": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\src\\main\\res\\layout\\activity_function_hvac_test.xml"
     },
     {
         "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
@@ -1606,6 +1614,10 @@
     {
         "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\anim_generic_confirmation_animation_interpolator_2.xml.flat",
         "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wear-28.0.0.aar\\fd4ab082d4f11f0acb75ef66aa6f37b2\\res\\anim\\generic_confirmation_animation_interpolator_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_function_headlamp_test.xml.flat",
+        "source": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\src\\main\\res\\layout\\activity_function_headlamp_test.xml"
     },
     {
         "merged": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",

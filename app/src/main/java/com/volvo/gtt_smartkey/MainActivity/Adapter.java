@@ -12,9 +12,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.volvo.gtt_smartkey.Function_Items.Function_Hazardlight;
+import com.volvo.gtt_smartkey.Function_Items.Function_HeadLamp_Test;
 import com.volvo.gtt_smartkey.Function_Items.Function_Headlamp;
 import com.volvo.gtt_smartkey.Function_Items.Function_Hvac;
 import com.volvo.gtt_smartkey.Function_Items.Function_Door;
+import com.volvo.gtt_smartkey.Function_Items.Function_Hvac_Test;
 import com.volvo.gtt_smartkey.R;
 
 import java.util.List;
@@ -82,7 +84,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                     mContext.startActivity(intent);
                 }
                else if(position == 1) {
-                    Intent intent = new Intent(mContext, Function_Headlamp.class);
+                    Intent intent = new Intent(mContext, Function_HeadLamp_Test.class);
                     intent.putExtra("position", position);
                     mContext.startActivity(intent);
                 }
@@ -92,7 +94,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
                     mContext.startActivity(intent);
                 }
                 else if(position == 3) {
-                    Intent intent = new Intent(mContext, Function_Hvac.class);
+                    Intent intent = new Intent(mContext, Function_Hvac_Test.class);
                     intent.putExtra("position", position);
                     mContext.startActivity(intent);
                 }
