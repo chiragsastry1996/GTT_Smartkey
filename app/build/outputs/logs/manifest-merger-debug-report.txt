@@ -1,304 +1,304 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b43dc8b6b0e04eb27485c8fa29d7439a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\bbac73f822fd518cda15646b2b0550ef\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\8608b0d3572d8466d9250e87557dad5d\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\326bb74696fda0bde2efa4c3e615e053\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:wear:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wear-28.0.0.aar\fd4ab082d4f11f0acb75ef66aa6f37b2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\94a1f304aef77aedda95808a574b960a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\41de0d1fc7835c3275679b55db5a9a7d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d4aaad28cefaf72e69b7be708df18c70\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bd1c854099f0de5afad7d48efe29c66f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\476acd1d3cee810895eca575a8d56610\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\28255d0fa2eb24586e7546c82671e366\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:percent:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\b7ad3b4ead0592b85cbe27a314098a2e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\2253e96d1f29012f081785fc9b61b0d8\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\72264d2f3b17f12e956101e7efa6a6bf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f5c6cd62a0fd695129dfb82dab1490b3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b70fd8fd521b99d3d8f03349060bd7e3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\0c825a51f1ffe6b50440638e1839214a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\de84742a8e22f3882c0164bda7efd395\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ac42076b43e7c23f98a415b17354ea0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7937747dc3d8947c50fe0a4c38c3703a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1bcafce04e97e1109fa87cf3bee2f4bc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e82adc52afd67a9c2235929e3e312a3a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\30bf9afad3f2168c94fbb3f5c497269b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0edfbc0c42bd52104cdac8fd1132a1fa\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7b16621f5a647394178e6902c49d19e9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6e2f5e33907a86604b8e458be93af8e2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b40935fb6916cd0ca017fb9ab819a606\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db248e8186a2a2db035673ebadbfea8f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d128bab5d3513f34da9e22999f1897bd\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0f022b89043052c619baa8f43c464d49\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bceb136e22fe7497adba8a354319dd38\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\595e2d05143c24f71c5bb456343a707b\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\802967041c2c9983802da973d71ad3e5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d2a7205d136b5f199c59bec69fede73\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/335c621ad29abe323acd39bedc200725/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1fa9924639afaf68bf0a6944c70003f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-wearable-16.0.1.aar/7e968e78f62c421b097db945b1487912/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/676072efa916104bdf084f0e523dc158/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c938108937f07cdc4d0ead5f4d4cea1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:wear:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wear-28.0.0.aar/2e6b44a799de956668823ffdf5ddb960/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ef7a36f6c2e1b054f426e08e959cda17/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/309b3ff9db4479fe13bb393456453223/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/80656a879f39ab1ea9800f293ba6a352/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e4208ce77d9948b78da4fbd94be34f79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12191e81ffbbf3367437f65a11bb7759/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bd5cbc51be6fcbfd3c6d58016e8de17b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:percent:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/percent-28.0.0.aar/4d9d881b91bbb827820a95d405ffb824/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/0e82d15a9afb0bcd5a0a5476d041f9b7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/94dd2f1a4d3ae21bc83782ab45c9f0a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2ead26367d1b73a27064285e889e6de1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3c1544b9eb93fc2ace7df7b3b77f9230/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcaf71ea1c295a119f5ad7521ce11e47/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/58c3da1d41c7fa94fa4736708d432344/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b57d2f5eeeed3ae090d4e3c147e15b4f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/482e55bd8efecb7af5727271fdec1d56/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/990802e4945f3abd4f205c4309505d1c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6d38bc37ddc722f9cb3d5548210e263c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/43294b919295e10dccb7243c7357d3a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e07a43bf31fb761e44c50139e70957a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/575c1e18d7bd0bffdc0947d4ceb29275/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/03281685581a14f8e93585a334131473/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab42a085cd5f66ff8b6af40867fe8fc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f25ccf714523a77377f5afc3836ccbf6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b26dd4db5d6601488a6374b0b0d4136/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3262ff4b8828927f851988269b9eb4f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d0934dfa031de174791920c4d8427064/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bee90ca62e4b79a092f8e1349f1e1624/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0819a17168c5da32855865bffd74f0c6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a6959758fd8a5c4ce741b08c5b17859e/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
 	package
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:5:11-43
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:5:11-43
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:4:11-57
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:4:11-57
 	android:versionCode
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:1-70:12
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:2:11-69
 	android:targetSandboxVersion
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:3:11-43
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:3:11-43
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:5-67
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:7:22-65
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:7:22-65
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:8:5-66
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:8:5-66
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:8:22-64
 uses-feature#android.hardware.type.watch
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:10:5-63
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:10:5-63
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:10:19-61
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:10:19-61
 application
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:12:5-68:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:10:5-20
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:9:5-13:19
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:9:5-13:19
-MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\bbac73f822fd518cda15646b2b0550ef\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\bbac73f822fd518cda15646b2b0550ef\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\8608b0d3572d8466d9250e87557dad5d\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\8608b0d3572d8466d9250e87557dad5d\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\28255d0fa2eb24586e7546c82671e366\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\28255d0fa2eb24586e7546c82671e366\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\2253e96d1f29012f081785fc9b61b0d8\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\2253e96d1f29012f081785fc9b61b0d8\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0edfbc0c42bd52104cdac8fd1132a1fa\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0edfbc0c42bd52104cdac8fd1132a1fa\AndroidManifest.xml:22:5-23:19
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:12:5-68:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/335c621ad29abe323acd39bedc200725/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/335c621ad29abe323acd39bedc200725/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-wearable-16.0.1.aar/7e968e78f62c421b097db945b1487912/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-wearable-16.0.1.aar/7e968e78f62c421b097db945b1487912/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/676072efa916104bdf084f0e523dc158/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/676072efa916104bdf084f0e523dc158/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bd5cbc51be6fcbfd3c6d58016e8de17b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bd5cbc51be6fcbfd3c6d58016e8de17b/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/0e82d15a9afb0bcd5a0a5476d041f9b7/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/0e82d15a9afb0bcd5a0a5476d041f9b7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e07a43bf31fb761e44c50139e70957a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e07a43bf31fb761e44c50139e70957a/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:16:9-41
 	tools:ignore
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:20:9-48
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:20:9-48
 	android:icon
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:19:9-59
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:19:9-59
 	android:networkSecurityConfig
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:18:9-69
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:18:9-69
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:13:9-46
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:13:9-46
 activity#com.volvo.gtt_smartkey.Function_Items.Function_HeadLamp_Test
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:21:9-22:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:21:9-22:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:21:19-72
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:21:19-72
 activity#com.volvo.gtt_smartkey.Function_Items.Function_Hazardlight
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:23:9-24:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:23:9-24:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:23:19-70
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:23:19-70
 activity#com.volvo.gtt_smartkey.Function_Items.Function_Headlamp
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:25:9-26:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:25:9-26:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:25:19-67
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:25:19-67
 service#com.volvo.gtt_smartkey.SplashScreen.SocketService
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:28:9-32:19
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:28:9-32:19
 	android:enabled
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:30:13-35
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:30:13-35
 	android:exported
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:29:13-55
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:29:13-55
 activity#com.volvo.gtt_smartkey.Function_Items.Function_confirmation
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:34:9-35:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:34:9-35:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:34:19-71
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:34:19-71
 activity#com.volvo.gtt_smartkey.socketTest.SocketTest
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:36:9-37:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:36:9-37:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:36:19-56
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:36:19-56
 activity#com.volvo.gtt_smartkey.SplashScreen.SplashScreen
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:38:9-44:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:38:9-44:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:38:19-60
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:38:19-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:40:17-68
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:40:17-68
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:42:17-76
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:42:17-76
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:42:27-74
 activity#com.volvo.gtt_smartkey.Function_Items.Function_Hvac
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:45:9-46:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:45:9-46:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:45:19-63
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:45:19-63
 activity#com.volvo.gtt_smartkey.MainActivity.MainActivity
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:47:9-51:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:47:9-51:20
 	android:label
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:49:13-45
 	android:theme
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:50:13-41
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:50:13-41
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:48:13-54
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:48:13-54
 activity#com.volvo.gtt_smartkey.Function_Items.Function_Door
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:52:9-53:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:52:9-53:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:52:19-63
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:52:19-63
 activity#android.support.wearable.activity.ConfirmationActivity
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:54:9-55:20
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:54:9-55:20
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:54:19-88
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:54:19-88
 activity#com.volvo.gtt_smartkey.Function_Items.Function_Hvac_Test
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:56:9-80
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:56:9-80
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:56:19-68
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:56:19-68
 uses-library#com.google.android.wearable
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:58:9-60:38
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:10:9-12:40
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:10:9-12:40
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:58:9-60:38
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:10:9-12:40
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:10:9-12:40
 	android:required
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:60:13-36
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:59:13-55
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:59:13-55
 meta-data#com.google.android.wearable.standalone
-ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:65:9-67:35
+ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:65:9-67:35
 	android:value
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:67:13-33
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:67:13-33
 	android:name
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml:66:13-66
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml:66:13-66
 uses-sdk
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\glide-4.9.0.aar\3d398fe3b2a1cab2219fab0da99b5ace\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b43dc8b6b0e04eb27485c8fa29d7439a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\b43dc8b6b0e04eb27485c8fa29d7439a\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.support:wearable:2.4.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wearable-2.4.0.aar\c69ba12d7f06b94331a581b521cab550\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\bbac73f822fd518cda15646b2b0550ef\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-wearable:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-wearable-16.0.1.aar\bbac73f822fd518cda15646b2b0550ef\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\8608b0d3572d8466d9250e87557dad5d\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\8608b0d3572d8466d9250e87557dad5d\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\326bb74696fda0bde2efa4c3e615e053\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\326bb74696fda0bde2efa4c3e615e053\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:wear:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wear-28.0.0.aar\fd4ab082d4f11f0acb75ef66aa6f37b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:wear:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\wear-28.0.0.aar\fd4ab082d4f11f0acb75ef66aa6f37b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\94a1f304aef77aedda95808a574b960a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\94a1f304aef77aedda95808a574b960a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\41de0d1fc7835c3275679b55db5a9a7d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\41de0d1fc7835c3275679b55db5a9a7d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d4aaad28cefaf72e69b7be708df18c70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d4aaad28cefaf72e69b7be708df18c70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bd1c854099f0de5afad7d48efe29c66f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\bd1c854099f0de5afad7d48efe29c66f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\476acd1d3cee810895eca575a8d56610\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\476acd1d3cee810895eca575a8d56610\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\28255d0fa2eb24586e7546c82671e366\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\28255d0fa2eb24586e7546c82671e366\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:percent:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\b7ad3b4ead0592b85cbe27a314098a2e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:percent:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\percent-28.0.0.aar\b7ad3b4ead0592b85cbe27a314098a2e\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\2253e96d1f29012f081785fc9b61b0d8\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.9.0.aar\2253e96d1f29012f081785fc9b61b0d8\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\72264d2f3b17f12e956101e7efa6a6bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\72264d2f3b17f12e956101e7efa6a6bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f5c6cd62a0fd695129dfb82dab1490b3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\f5c6cd62a0fd695129dfb82dab1490b3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b70fd8fd521b99d3d8f03349060bd7e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\b70fd8fd521b99d3d8f03349060bd7e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\0c825a51f1ffe6b50440638e1839214a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\0c825a51f1ffe6b50440638e1839214a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\de84742a8e22f3882c0164bda7efd395\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\de84742a8e22f3882c0164bda7efd395\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ac42076b43e7c23f98a415b17354ea0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ac42076b43e7c23f98a415b17354ea0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7937747dc3d8947c50fe0a4c38c3703a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7937747dc3d8947c50fe0a4c38c3703a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1bcafce04e97e1109fa87cf3bee2f4bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\1bcafce04e97e1109fa87cf3bee2f4bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e82adc52afd67a9c2235929e3e312a3a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\e82adc52afd67a9c2235929e3e312a3a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\30bf9afad3f2168c94fbb3f5c497269b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\30bf9afad3f2168c94fbb3f5c497269b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\2c908d11cff2f9e5047e048d5a6c1080\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0edfbc0c42bd52104cdac8fd1132a1fa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0edfbc0c42bd52104cdac8fd1132a1fa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7b16621f5a647394178e6902c49d19e9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7b16621f5a647394178e6902c49d19e9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6e2f5e33907a86604b8e458be93af8e2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6e2f5e33907a86604b8e458be93af8e2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b40935fb6916cd0ca017fb9ab819a606\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\b40935fb6916cd0ca017fb9ab819a606\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db248e8186a2a2db035673ebadbfea8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\db248e8186a2a2db035673ebadbfea8f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d128bab5d3513f34da9e22999f1897bd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d128bab5d3513f34da9e22999f1897bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0f022b89043052c619baa8f43c464d49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0f022b89043052c619baa8f43c464d49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bceb136e22fe7497adba8a354319dd38\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bceb136e22fe7497adba8a354319dd38\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\595e2d05143c24f71c5bb456343a707b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\595e2d05143c24f71c5bb456343a707b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\802967041c2c9983802da973d71ad3e5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\802967041c2c9983802da973d71ad3e5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d2a7205d136b5f199c59bec69fede73\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7d2a7205d136b5f199c59bec69fede73\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/335c621ad29abe323acd39bedc200725/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/glide-4.9.0.aar/335c621ad29abe323acd39bedc200725/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1fa9924639afaf68bf0a6944c70003f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1fa9924639afaf68bf0a6944c70003f2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.4.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-wearable-16.0.1.aar/7e968e78f62c421b097db945b1487912/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-wearable-16.0.1.aar/7e968e78f62c421b097db945b1487912/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/676072efa916104bdf084f0e523dc158/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/676072efa916104bdf084f0e523dc158/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c938108937f07cdc4d0ead5f4d4cea1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/1c938108937f07cdc4d0ead5f4d4cea1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:wear:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wear-28.0.0.aar/2e6b44a799de956668823ffdf5ddb960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:wear:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/wear-28.0.0.aar/2e6b44a799de956668823ffdf5ddb960/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ef7a36f6c2e1b054f426e08e959cda17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ef7a36f6c2e1b054f426e08e959cda17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/309b3ff9db4479fe13bb393456453223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/309b3ff9db4479fe13bb393456453223/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/80656a879f39ab1ea9800f293ba6a352/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/80656a879f39ab1ea9800f293ba6a352/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e4208ce77d9948b78da4fbd94be34f79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/e4208ce77d9948b78da4fbd94be34f79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12191e81ffbbf3367437f65a11bb7759/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/12191e81ffbbf3367437f65a11bb7759/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bd5cbc51be6fcbfd3c6d58016e8de17b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bd5cbc51be6fcbfd3c6d58016e8de17b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:percent:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/percent-28.0.0.aar/4d9d881b91bbb827820a95d405ffb824/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/percent-28.0.0.aar/4d9d881b91bbb827820a95d405ffb824/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/0e82d15a9afb0bcd5a0a5476d041f9b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.9.0.aar/0e82d15a9afb0bcd5a0a5476d041f9b7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/94dd2f1a4d3ae21bc83782ab45c9f0a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/94dd2f1a4d3ae21bc83782ab45c9f0a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2ead26367d1b73a27064285e889e6de1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/2ead26367d1b73a27064285e889e6de1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3c1544b9eb93fc2ace7df7b3b77f9230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3c1544b9eb93fc2ace7df7b3b77f9230/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcaf71ea1c295a119f5ad7521ce11e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/dcaf71ea1c295a119f5ad7521ce11e47/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/58c3da1d41c7fa94fa4736708d432344/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/58c3da1d41c7fa94fa4736708d432344/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b57d2f5eeeed3ae090d4e3c147e15b4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b57d2f5eeeed3ae090d4e3c147e15b4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/482e55bd8efecb7af5727271fdec1d56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/482e55bd8efecb7af5727271fdec1d56/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/990802e4945f3abd4f205c4309505d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/990802e4945f3abd4f205c4309505d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6d38bc37ddc722f9cb3d5548210e263c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6d38bc37ddc722f9cb3d5548210e263c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/43294b919295e10dccb7243c7357d3a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/43294b919295e10dccb7243c7357d3a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e07a43bf31fb761e44c50139e70957a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3e07a43bf31fb761e44c50139e70957a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/575c1e18d7bd0bffdc0947d4ceb29275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/575c1e18d7bd0bffdc0947d4ceb29275/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/03281685581a14f8e93585a334131473/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/03281685581a14f8e93585a334131473/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab42a085cd5f66ff8b6af40867fe8fc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ab42a085cd5f66ff8b6af40867fe8fc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f25ccf714523a77377f5afc3836ccbf6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f25ccf714523a77377f5afc3836ccbf6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b26dd4db5d6601488a6374b0b0d4136/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/6b26dd4db5d6601488a6374b0b0d4136/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3262ff4b8828927f851988269b9eb4f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d3262ff4b8828927f851988269b9eb4f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d0934dfa031de174791920c4d8427064/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d0934dfa031de174791920c4d8427064/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bee90ca62e4b79a092f8e1349f1e1624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/bee90ca62e4b79a092f8e1349f1e1624/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0819a17168c5da32855865bffd74f0c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0819a17168c5da32855865bffd74f0c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a6959758fd8a5c4ce741b08c5b17859e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a6959758fd8a5c4ce741b08c5b17859e/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\chira\Desktop\GTT_Smartkey\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\439c2750a1fce212735d35c3628badc3\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\chira\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\a67081c880eaa8facaf27e1fd607d796\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/AndroidManifest.xml:24:13-58

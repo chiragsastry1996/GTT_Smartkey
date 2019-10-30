@@ -1,10 +1,21 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.4.0.aar\\c69ba12d7f06b94331a581b521cab550\\res\\values-v23\\values.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1fa9924639afaf68bf0a6944c70003f2/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                },
+                {
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/res/values-v23/values.xml",
                     "from": {
                         "startLines": "4,8,12,20,23",
                         "startColumns": "0,0,0,0,0",
@@ -20,17 +31,6 @@
                         "endLines": "40,44,52,55,57",
                         "endColumns": "8,8,8,8,8",
                         "endOffsets": "2807,2975,3380,3525,3629"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b43dc8b6b0e04eb27485c8fa29d7439a\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]

@@ -2,13 +2,13 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="28"
-    build-mode="FULL"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
     plugin-version="3.3.2"
-    timestamp="1557370739925"
-    token="5263054255243386970"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1564133086445"
+    token="-4707502461715955500"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -23,89 +23,62 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1557370739925"
+        timestamp="1564132702074"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\chira\Desktop\GTT_Smartkey\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1564133067435"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1564133086445"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

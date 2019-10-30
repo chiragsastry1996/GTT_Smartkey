@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v20\\values-v20.xml",
+            "outputFile": "/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v20/values-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.4.0.aar\\c69ba12d7f06b94331a581b521cab550\\res\\values-v20\\values.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/res/values-v20/values.xml",
                     "from": {
                         "startLines": "4,6,12,14,22,28,43,58,62,66,70,74,78,82,86,90,94,96",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

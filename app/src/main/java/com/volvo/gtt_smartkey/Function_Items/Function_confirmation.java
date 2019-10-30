@@ -14,7 +14,6 @@ import com.volvo.gtt_smartkey.R;
 import com.volvo.gtt_smartkey.SplashScreen.SocketService;
 
 
-import static com.volvo.gtt_smartkey.Function_Items.Function_HeadLamp_Test.register;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_lock;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.door_unlock;
 import static com.volvo.gtt_smartkey.SplashScreen.SocketService.hazardlight_off;
@@ -170,19 +169,18 @@ public class Function_confirmation extends Activity implements
                 }
             case "headlamp" :
                 if(isLightOn) {
-                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOffLight";
-                    Function_HeadLamp_Test.item_name.setText("OFF");
+//                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOffLight";
+//                    Function_HeadLamp_Test.item_name.setText("OFF");
                     action = "Headlamp switched OFF";
-                    register();
-                    isLightOn = false;
+
+//                    isLightOn = false;
                     Log.e("HEADLAMP",  String.valueOf(isLightOn));
                     break;
                 } else if(!isLightOn) {
-                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOnLight";
-                    Function_HeadLamp_Test.item_name.setText("ON");
-                    register();
+//                    Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOnLight";
+//                    Function_HeadLamp_Test.item_name.setText("ON");
                     action = "Headlamp switched ON";
-                    isLightOn = true;
+//                    isLightOn = true;
                     Log.e("HEADLAMP",  String.valueOf(isLightOn));
                     break;
                 }
@@ -200,23 +198,15 @@ public class Function_confirmation extends Activity implements
                 switch (status_value) {
                     case 0 :
                         Log.e("HVAC", "SOFF");
-                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/switchOffLight";
-                        register();
                         break;
                     case 1 :
                         Log.e("HVAC", "LOW");
-                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperLow";
-                        register();
                         break;
                     case 2 :
                         Log.e("HVAC", "Medium");
-                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperMedium";
-                        register();
                         break;
                     case 3 :
                         Log.e("HVAC", "High");
-                        Function_HeadLamp_Test.REGISTER_URL = "http://192.168.12.1:33080/api/vds/wiperHigh";
-                        register();
                         break;
                 }
                 action = "HVAC mode changed";

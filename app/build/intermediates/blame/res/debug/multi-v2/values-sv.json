@@ -1,27 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2c908d11cff2f9e5047e048d5a6c1080\\res\\values-sv\\values-sv.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/wear-28.0.0.aar/2e6b44a799de956668823ffdf5ddb960/res/values-sv/values-sv.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,115",
+                        "endOffsets": "158,274"
                     },
                     "to": {
-                        "startLines": "101",
-                        "startColumns": "4",
-                        "startOffsets": "8933",
-                        "endColumns": "100",
-                        "endOffsets": "9029"
+                        "startLines": "105,106",
+                        "startColumns": "4,4",
+                        "startOffsets": "9240,9348",
+                        "endColumns": "107,115",
+                        "endOffsets": "9343,9459"
                     }
                 },
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.4.0.aar\\c69ba12d7f06b94331a581b521cab550\\res\\values-sv\\values.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/488a4c14a45c85e3882905b7df971048/res/values-sv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "206",
+                        "endOffsets": "453"
+                    },
+                    "to": {
+                        "startLines": "86",
+                        "startColumns": "4",
+                        "startOffsets": "7070",
+                        "endColumns": "206",
+                        "endOffsets": "7272"
+                    }
+                },
+                {
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/res/values-sv/values.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,19,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -40,58 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\a67081c880eaa8facaf27e1fd607d796\\res\\values-sv\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "206",
-                        "endOffsets": "453"
-                    },
-                    "to": {
-                        "startLines": "86",
-                        "startColumns": "4",
-                        "startOffsets": "7070",
-                        "endColumns": "206",
-                        "endOffsets": "7272"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wear-28.0.0.aar\\fd4ab082d4f11f0acb75ef66aa6f37b2\\res\\values-sv\\values-sv.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,115",
-                        "endOffsets": "158,274"
-                    },
-                    "to": {
-                        "startLines": "105,106",
-                        "startColumns": "4,4",
-                        "startOffsets": "9240,9348",
-                        "endColumns": "107,115",
-                        "endOffsets": "9343,9459"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\439c2750a1fce212735d35c3628badc3\\res\\values-sv\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,350,539,664,772,972,1095,1244,1373,1580,1686,1879,2005,2218,2400,2492,2581",
-                        "endColumns": "104,188,124,107,199,122,148,128,206,105,192,125,212,181,91,88,103",
-                        "endOffsets": "349,538,663,771,971,1094,1243,1372,1579,1685,1878,2004,2217,2399,2491,2580,2684"
-                    },
-                    "to": {
-                        "startLines": "78,79,80,81,82,83,84,85,87,88,89,90,91,92,93,94,95",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5918,6027,6216,6345,6457,6657,6784,6937,7277,7484,7594,7787,7917,8130,8316,8412,8505",
-                        "endColumns": "108,188,128,111,199,126,152,132,206,109,192,129,212,185,95,92,107",
-                        "endOffsets": "6022,6211,6340,6452,6652,6779,6932,7065,7479,7589,7782,7912,8125,8311,8407,8500,8608"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\b43dc8b6b0e04eb27485c8fa29d7439a\\res\\values-sv\\values-sv.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1fa9924639afaf68bf0a6944c70003f2/res/values-sv/values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -105,6 +71,40 @@
                         "startOffsets": "1079,1185,1288,1399,1484,1586,1699,1775,1851,1944,2039,2135,2229,2332,2427,2524,2622,2718,2811,2891,2997,3097,3193,3298,3400,3502,3656,8854",
                         "endColumns": "105,102,110,84,101,112,75,75,92,94,95,93,102,94,96,97,95,92,79,105,99,95,104,101,101,153,101,78",
                         "endOffsets": "1180,1283,1394,1479,1581,1694,1770,1846,1939,2034,2130,2224,2327,2422,2519,2617,2713,2806,2886,2992,3092,3188,3293,3395,3497,3651,3753,8928"
+                    }
+                },
+                {
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/c0c5d3e1faa7909a04686b1f1df67a6e/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "101",
+                        "startColumns": "4",
+                        "startOffsets": "8933",
+                        "endColumns": "100",
+                        "endOffsets": "9029"
+                    }
+                },
+                {
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/ada4ae1d430873f88e7e087e0449ebe2/res/values-sv/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,539,664,772,972,1095,1244,1373,1580,1686,1879,2005,2218,2400,2492,2581",
+                        "endColumns": "104,188,124,107,199,122,148,128,206,105,192,125,212,181,91,88,103",
+                        "endOffsets": "349,538,663,771,971,1094,1243,1372,1579,1685,1878,2004,2217,2399,2491,2580,2684"
+                    },
+                    "to": {
+                        "startLines": "78,79,80,81,82,83,84,85,87,88,89,90,91,92,93,94,95",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5918,6027,6216,6345,6457,6657,6784,6937,7277,7484,7594,7787,7917,8130,8316,8412,8505",
+                        "endColumns": "108,188,128,111,199,126,152,132,206,109,192,129,212,185,95,92,107",
+                        "endOffsets": "6022,6211,6340,6452,6652,6779,6932,7065,7479,7589,7782,7912,8125,8311,8407,8500,8608"
                     }
                 }
             ]

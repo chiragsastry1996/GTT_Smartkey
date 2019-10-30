@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-round-v23\\values-round-v23.xml",
+            "outputFile": "/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-round-v23/values-round-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chira\\.gradle\\caches\\transforms-1\\files-1.1\\wearable-2.4.0.aar\\c69ba12d7f06b94331a581b521cab550\\res\\values-round-v23\\values.xml",
+                    "source": "/Users/Volvo/.gradle/caches/transforms-1/files-1.1/wearable-2.4.0.aar/00f0defa4361f180d3c773b5fb1b49a2/res/values-round-v23/values.xml",
                     "from": {
                         "startLines": "4,5,8,9,10,11,12,13,14,15",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0",
@@ -21,14 +21,14 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\chira\\Desktop\\GTT_Smartkey\\app\\src\\main\\res\\values-round\\strings.xml",
+                    "source": "/Users/Volvo/Desktop/Chirag_Android/GTT_Smartkey/app/src/main/res/values-round/strings.xml",
                     "from": {
                         "startLines": "13,3,4,7,8,9,1,17,18,12,5,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "525,79,127,227,274,366,17,710,769,452,173,824",
+                        "startOffsets": "512,76,123,220,266,357,16,693,751,440,168,805",
                         "endLines": "16,3,4,7,8,9,1,17,18,12,5,19",
                         "endColumns": "14,46,44,45,90,59,58,57,53,71,50,56",
-                        "endOffsets": "704,121,167,268,360,421,71,763,818,519,219,876"
+                        "endOffsets": "688,118,163,261,352,412,70,746,800,507,214,857"
                     },
                     "to": {
                         "startLines": "12,16,17,18,19,20,21,22,23,24,25,26",
